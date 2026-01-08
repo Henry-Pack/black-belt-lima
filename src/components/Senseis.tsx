@@ -100,9 +100,19 @@ export const Senseis = () => {
               </div>
 
               <div className="pt-4">
-                <Button variant="outline" className="border-charcoal text-charcoal hover:bg-charcoal hover:text-background">
-                  Conheça Nossa Equipe
-                </Button>
+                <Button
+                  variant="outline"
+                  asChild
+                  className="border-charcoal text-charcoal hover:bg-charcoal hover:text-background"
+                >
+                  <a
+                    href="https://wa.me/5551984062913"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Conheça Nossa Equipe
+                  </a>
+              </Button>
               </div>
             </div>
           </div>

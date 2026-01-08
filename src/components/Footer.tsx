@@ -36,6 +36,15 @@ export const Footer = () => {
           >
             Disciplina • Respeito • Evolução
           </motion.p>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.6, delay: 0.4 }}
+            className="text-xs text-background/40 tracking-wider"
+          >
+            Site Desenvolvido Por Pack Digital Services
+          </motion.p>
         </div>
       </div>
     </footer>
