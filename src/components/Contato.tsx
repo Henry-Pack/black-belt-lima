@@ -14,13 +14,13 @@ const socialLinks = [
   {
     name: "Instagram",
     icon: Instagram,
-    href: "https://instagram.com/blackbeltlima",
+    href: "https://instagram.com/black_beltlima/",
     color: "bg-gradient-to-br from-[#833AB4] via-[#FD1D1D] to-[#F77737] hover:opacity-90",
   },
   {
     name: "Facebook",
     icon: Facebook,
-    href: "https://facebook.com/blackbeltlima",
+    href: "https://facebook.com/Blackbeltlima",
     color: "bg-[#1877F2] hover:bg-[#166FE5]",
   },
 ];
@@ -90,7 +90,7 @@ export const Contato = () => {
           >
             <div className="flex items-center gap-2">
               <MapPin className="w-5 h-5 text-accent" />
-              <span>Curitiba, PR</span>
+              <span>Gravataí, RS</span>
             </div>
             <div className="hidden sm:block w-px h-6 bg-background/20" />
             <div className="flex items-center gap-2">

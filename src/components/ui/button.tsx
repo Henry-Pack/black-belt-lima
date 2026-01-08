@@ -16,7 +16,9 @@ const buttonVariants = cva(
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
         // Black Belt Lima - Martial Red CTA Button
-        martial: "bg-accent text-accent-foreground font-semibold tracking-wide hover:bg-[hsl(0_85%_38%)] shadow-red hover:shadow-strong hover:-translate-y-0.5",
+        martial:
+        "bg-accent text-accent-foreground font-semibold tracking-wide hover:bg-accent-hover active:bg-accent-active shadow-lg hover:shadow-xl hover:-translate-y-0.5",
+
       },
       size: {
         default: "h-10 px-4 py-2",

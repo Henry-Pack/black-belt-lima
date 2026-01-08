@@ -51,7 +51,7 @@ export const Senseis = () => {
                 <img
                   src={senseiImage}
                   alt="Sensei Adriano Lima"
-                  className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
+                  className="w-full h-full object-cover contrast-105 hover:contrast-110 transition-all duration-500"
                 />
                 <div className="absolute bottom-0 left-0 right-0 h-1/3 bg-gradient-to-t from-black-belt/60 to-transparent" />
                 <div className="absolute bottom-4 left-4">
@@ -77,7 +77,7 @@ export const Senseis = () => {
               <p className="text-charcoal leading-relaxed">
                 O Sensei Adriano Lima é o fundador da Black Belt Lima e responsável 
                 por transmitir os valores e a filosofia da academia. Com ampla 
-                experiência no ensino do Judô e do Jiu-Jitsu, conduz os treinos com 
+                experiência no ensino do Judô, conduz os treinos com 
                 foco em técnica, disciplina e evolução constante.
               </p>
 

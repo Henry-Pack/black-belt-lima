@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap');
 
 /* Black Belt Lima Design System
    Philosophy: Strength with serenity, discipline with elegance
@@ -34,8 +35,10 @@
     --muted: 0 0% 94%;
     --muted-foreground: 0 0% 40%;
 
-    /* Accent - Martial Red (Aka) */
-    --accent: 0 85% 45%;
+    /* Accent - Martial blue (Aka) */
+    --accent: 215 80% 45%;
+    --accent-hover: 215 80% 38%;
+    --accent-active: 215 85% 32%;
     --accent-foreground: 0 0% 100%;
 
     /* Destructive */
@@ -187,7 +190,7 @@
     height: 2px;
     bottom: -2px;
     left: 0;
-    background-color: hsl(var(--martial-red));
+    background-color: hsl(var(--accent-hover));
     transition: width 0.3s ease;
   }
 

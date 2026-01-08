@@ -12,7 +12,7 @@ export const Footer = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.6 }}
-            className="font-display text-xl tracking-wider text-background"
+            className="font-display 3-xl tracking-wider text-background"
           >
             BLACK BELT <span className="text-accent">LIMA</span>
           </motion.div>
