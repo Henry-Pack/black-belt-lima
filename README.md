@@ -1,73 +1,71 @@
-# Welcome to your Lovable project
+# 🥋 Black Belt Lima — Website Institucional
 
-## Project info
+Website institucional desenvolvido para a academia **Black Belt Lima**, focada em Judô e Jiu-Jitsu.  
+O projeto tem como objetivo transmitir **disciplina, força, profissionalismo e confiança**, alinhado aos valores das artes marciais.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 📸 Preview
+> (adicione aqui uma imagem ou gif do site depois)
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🎯 Objetivo do Projeto
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+- Fortalecer a **presença digital** da academia
+- Passar mais **credibilidade** para novos alunos
+- Facilitar o contato e a apresentação dos treinos e modalidades
+- Criar uma base moderna e escalável para futuras evoluções
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🛠️ Tecnologias Utilizadas
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **React** — construção da interface
+- **Vite** — bundler rápido e moderno
+- **TypeScript** — tipagem e mais segurança no código
+- **Tailwind CSS** — estilização rápida, responsiva e consistente
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🎨 Design & Identidade Visual
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- **Cores principais**:
+  - Branco → referência ao **quimono**
+  - Preto → referência à **faixa preta**
+  - Cinza → cor de apoio para equilíbrio visual
+- Layout limpo, moderno e focado em leitura
+- Estilo forte e minimalista, alinhado às artes marciais
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## ⚙️ Funcionalidades
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+- Layout totalmente **responsivo**
+- Seção institucional da academia
+- Apresentação das modalidades (Judô e Jiu-Jitsu)
+- Seção de contato
+- Estrutura preparada para futuras integrações (ex: formulário, WhatsApp, CMS)
+
+---
+
+## 🚀 Como rodar o projeto localmente
+
+### Pré-requisitos
+- Node.js (versão 18+ recomendada)
+- npm ou yarn
+
+### Passos
+
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/black-belt-lima-site.git
+
+# Entre na pasta do projeto
+cd black-belt-lima-site
+
+# Instale as dependências
+npm install
+
+# Rode o projeto
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
