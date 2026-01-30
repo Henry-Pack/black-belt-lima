@@ -6,10 +6,10 @@ import { Camera } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const previewImages = [
-  "/placeholder.svg",
-  "/placeholder.svg",
-  "/placeholder.svg",
-  "/placeholder.svg",
+  "/galeria/judo04.webp",
+  "/galeria/judo07.webp",
+  "/galeria/judo08.webp",
+  "/galeria/judo02.webp"
 ];
 
 export const GaleriaPreview = () => {
