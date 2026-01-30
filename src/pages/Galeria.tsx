@@ -8,17 +8,17 @@ import { useState } from "react";
 const PHOTOS_PER_LOAD = 8;
 
 const photos = [
-    { id: 1, src: "public/galeria/judo01.webp", alt: "Treino de Judô", category: "Judô" },
-    { id: 2, src: "public/galeria/judo02.webp", alt: "Judô Kids", category: "Judô" },
-    { id: 3, src: "public/galeria/judo03.webp", alt: "Treino de Luta no Solo", category: "Imobilização" },
-    { id: 4, src: "public/galeria/judo04.webp", alt: "Premiação do Atleta Ezequiel", category: "Competição" },
-    { id: 5, src: "public/galeria/judo05.webp", alt: "Treino de Juji-Gatame", category: "Finalização" },
-    { id: 6, src: "public/galeria/judo06.webp", alt: "Treino de Luta no Solo", category: "Imobilização" },
-    { id: 7, src: "public/galeria/judo07.webp", alt: "Treino na 61 Academia", category: "Evento" },
-    { id: 8, src: "public/galeria/judo08.webp", alt: "Treino na 61 Academia", category: "Evento" },
-    { id: 9, src: "public/galeria/judo11.webp", alt: "Luta Sensei Adriano", category: "Competição" },
-    { id: 10, src: "public/galeria/judo09.webp", alt: "Luta Sensei Adriano", category: "Competição" },
-    { id: 11, src: "public/galeria/judo10.webp", alt: "Treino de Uchikomi", category: "Judô" },
+    { id: 1, src: "/galeria/judo01.webp", alt: "Treino de Judô", category: "Judô" },
+    { id: 2, src: "/galeria/judo02.webp", alt: "Judô Kids", category: "Judô" },
+    { id: 3, src: "/galeria/judo03.webp", alt: "Treino de Luta no Solo", category: "Imobilização" },
+    { id: 4, src: "/galeria/judo04.webp", alt: "Premiação do Atleta Ezequiel", category: "Competição" },
+    { id: 5, src: "/galeria/judo05.webp", alt: "Treino de Juji-Gatame", category: "Finalização" },
+    { id: 6, src: "/galeria/judo06.webp", alt: "Treino de Luta no Solo", category: "Imobilização" },
+    { id: 7, src: "/galeria/judo07.webp", alt: "Treino na 61 Academia", category: "Evento" },
+    { id: 8, src: "/galeria/judo08.webp", alt: "Treino na 61 Academia", category: "Evento" },
+    { id: 9, src: "/galeria/judo11.webp", alt: "Luta Sensei Adriano", category: "Competição" },
+    { id: 10, src: "/galeria/judo09.webp", alt: "Luta Sensei Adriano", category: "Competição" },
+    { id: 11, src: "/galeria/judo10.webp", alt: "Treino de Uchikomi", category: "Judô" },
 ];
 
 
