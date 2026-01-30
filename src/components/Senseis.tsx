@@ -3,7 +3,7 @@ import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { Award, BookOpen, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import senseiImage from "@/assets/sensei-portrait.jpg";
+import senseiImage from "@/assets/sensei-portrait.webp";
 
 const highlights = [
   { icon: Award, text: "Experiência comprovada" },
